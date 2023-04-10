@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reddit-news"
+version = "0.1.0"
+description = ""
+authors = ["Marc Wenzlawski <marc.wenzlawski@outlook.de>"]
+readme = "README.md"
+packages = [{include = "reddit_news"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+praw = "^7.7.0"
+openai = "^0.27.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
